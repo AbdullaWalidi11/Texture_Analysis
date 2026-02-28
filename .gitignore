@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Datasets and Images
+raw_ffhq/
+training_data/
+
+# AI Models
+*.keras
+*.task
+
+# Ignore CSV if you don't want to upload 5,000 rows of labels
+*.csv
